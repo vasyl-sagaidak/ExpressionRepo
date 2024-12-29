@@ -9,9 +9,15 @@ public class Main {
         int b = 100;
         int c = 5;
         System.out.println(sum(a, b) / c);
+        int d = divide(a, b);
+        System.out.println(d);
     }
 
     public static int sum(int a, int b) {
         return a + b;
+    }
+
+    public static int divide(int a, int b) {
+    return a > b ? a / b : b / a;
     }
 }
