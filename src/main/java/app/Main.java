@@ -28,6 +28,11 @@ public class Main {
         return a + b;
     }
 
+    public static void description() {
+        System.out.println("This code is to implement and improve " +
+                "skills of using GitHub instruments and concepts.");
+    }
+  
     public static int divide(int a, int b) {
         return a > b ? a / b : b / a;
     }
